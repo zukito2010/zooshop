@@ -103,6 +103,7 @@ nav {
     font-family: "BPG Mrgvlovani Caps", sans-serif;
     border-top: 3px solid royalblue;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     border-bottom: 3px solid royalblue;
 }
@@ -281,9 +282,76 @@ footer {
     color: white;
     padding: 10px;
     font-size: 20px;
+    float:none;
 }
 
 .logo {
   width: 224px;
   margin-left: 44%;
 }
+
+
+.sixTy{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60%;
+  float: left;
+  background-color: #04ef0b;
+  color: white;
+
+}
+
+.forTy{
+  width: 40%;
+  display: flex;
+  color: white;
+ flex-direction: column;
+  justify-content: center;
+  background-color: black;
+
+}
+
+.forTy span {
+  margin-top:20px;
+  padding: 20px;
+}
+
+.about {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* საკონტაქტო ფომრა */
+
+        
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        
+        input[type=submit] {
+          background-color: #04AA6D;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        
+        .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+/* საკონტაქტო ფომრა */
