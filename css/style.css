@@ -297,9 +297,14 @@ footer {
   justify-content: center;
   width: 60%;
   float: left;
-  background-color: #04ef0b;
+  background-color: #04AA6D;
   color: white;
 
+}
+.forTy h3 {
+  background-color: #04AA6D;
+  padding: 20px;
+  margin-top:0px;
 }
 
 .forTy{
@@ -315,6 +320,14 @@ footer {
 .forTy span {
   margin-top:20px;
   padding: 20px;
+  background-color: #04AA6D;
+}
+
+.forTy span:hover {
+  background-color: #000;
+  border:1px solid  #04AA6D;
+  -ms-transform: translate(-30%, -30%);
+  transform: translate(-30%, -30%);
 }
 
 .about {
