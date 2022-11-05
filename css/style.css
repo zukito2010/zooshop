@@ -9,6 +9,19 @@ img {vertical-align: middle;width: 65%;height: auto;}
   position: relative;
   margin: auto;
 }
+header{
+  background-color: #F86FB5;
+}
+.button1{
+  text-align: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.buttonq{
+  background: #673ab7;
+    color: white;
+    padding: 10px;
+}
 
 
 
@@ -114,7 +127,7 @@ nav a {
     color: white;
     margin-top: 15px;
     margin-bottom: 15px;
-    background: black;
+    background: #032248;
     margin-left: 10px;
     margin-right: 10px;
     padding: 20px;
@@ -123,7 +136,7 @@ nav a {
 }
 
 nav a:hover {
-    background: #764949; 
+    background: pink; 
     /* margin-top: 5px; */
      padding: 25px;
 }
@@ -191,12 +204,13 @@ h2 {
 }
 
 .product::before {
-    content: url("https://backoffice.algoritmika.org/uploads/2021/03/paw-155322_1280%201_0_1614946877.png");
+    content: url("../images/icon.png");
     width: 30px;
     height: 30px;
     display: block;
     opacity: 0.5;
     margin-bottom: 10px;
+    transform: scale(.09);
 }
 
 .product:hover::before {
@@ -278,7 +292,7 @@ h2 {
 }
 
 footer {
-    background-color: darkolivegreen;
+    background-color: #F86FB5;
     color: white;
     padding: 10px;
     font-size: 20px;
@@ -288,6 +302,7 @@ footer {
 .logo {
   width: 224px;
   margin-left: 44%;
+  background-color: #F86FB5;
 }
 
 

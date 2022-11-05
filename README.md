@@ -1,2 +1,0 @@
-# zooshop
-zoo shop
